@@ -1,0 +1,158 @@
+/*● Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+● Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+● Íconos
+
+El departamento de diseño usó los íconos de este sitio:
+https://fontawesome.com/icons?d=gallery&m=free*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+    font-family:'Roboto';
+}
+
+.home{
+    margin:0px
+}
+.home__header{
+    background-color: #EAC926;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.home__header__div__figure{
+    width: 200px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 0px
+}
+.home__header__div2{
+    margin-left: 30px ;
+}
+.home__header__div3{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.home__header p{
+    text-align: center;
+}
+.home__header__nav ul{
+    padding-left: 0px
+}
+.home__header__nav__menu{
+    list-style: none;
+    
+}
+.home__header__nav__menu a{
+    text-decoration: none;
+    color: black;
+}
+.home__header__nav__usuario {
+    list-style: none;
+}
+.home__header__nav__usuario a{
+    text-decoration: none;
+    color: black;
+}
+
+/*-----banner-----*/
+.home__section__figure {
+    width: 100vw;
+    height: 10vh;
+    margin: 0px
+    
+}
+.home__section__figure img{
+    width: 100vw;
+    height: 10vh;
+    
+}
+/*------menu hamburguesa------*/
+.burger-menu{
+    text-align: center;
+    
+    
+}
+.burger-menu i{
+    text-align: center;
+    color:white;
+    background-color: #03264C;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+/*------main------*/
+.home__main{
+    background-color: #ebebeb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.home__main article{
+    background-color: white;
+    margin:10px
+}
+.home__main img{
+    width: 90vw;
+}
+.home__main h3{
+    font-size: 24px;
+}
+.home__main__section__p {
+    font-size: 18px;
+    
+}
+.home__main p{
+    font-size: 16px;
+}
+
+
+/*-----footer------*/
+.home__footer{
+    background-color: #ebebeb;
+    padding-top: 10px;
+    
+}
+.home__footer__section {
+    text-align: center;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+.home__footer__section h5 {
+    font-size: 16px;
+    margin:0px
+}
+.home__footer__section p{
+    font-size: 12px;
+    margin: 10px
+}
+.home__footer__section i{
+    width:  2em;
+    height: 2em;
+    color: #1259c3;
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+.home__footer--copyright{
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
