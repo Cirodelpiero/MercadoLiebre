@@ -23,7 +23,7 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 *{
     font-family:'Roboto';
 }
-
+/*HEADER*/
 .home{
     margin:0px
 }
@@ -43,18 +43,17 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 .home__header__div2{
     margin-left: 30px ;
 }
-.home__header__div3{
-    margin-left: 30px;
-    margin-top: 3px;
-}
+
 .home__header p{
     text-align: center;
 }
 .home__header__nav ul{
     padding-left: 0px
 }
+
 .home__header__nav__menu{
     list-style: none;
+    display: none
     
 }
 .home__header__nav__menu a{
@@ -63,6 +62,7 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 }
 .home__header__nav__usuario {
     list-style: none;
+    display: none
 }
 .home__header__nav__usuario a{
     text-decoration: none;
@@ -70,6 +70,9 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 }
 
 /*-----banner-----*/
+.home__section{
+
+}
 .home__section__figure {
     width: 100vw;
     height: 10vh;
@@ -78,7 +81,7 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 }
 .home__section__figure img{
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     
 }
 /*------menu hamburguesa------*/
@@ -97,27 +100,64 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 
 /*------main------*/
 .home__main{
-    background-color: #ebebeb;
+    background-color:#ebebeb;
+    /*width: 90%;*/
+    margin: auto;
     padding-bottom: 10px;
-    padding-top: 10px;
 }
-.home__main article{
-    background-color: white;
-    margin:10px
+.home__main__section{
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.home__main img{
-    width: 90vw;
-}
-.home__main h3{
+.home__main__section h3{
     font-size: 24px;
 }
-.home__main__section__p {
-    font-size: 18px;
+.home__main__section__article{
+    margin-bottom: 10px;
+    background-color: white;
     
 }
-.home__main p{
-    font-size: 16px;
+.home__main img{
+    width: 100%;
+    border-top: solid #ebebeb 1px;
 }
+
+.home__main__section__article__div {
+    font-size: 18px;
+    border-top: solid #ebebeb 1px;
+    padding: 15px;
+    
+}
+
+
+
+.home__main__section__article__div--i{
+    border: solid 1px #39b54a;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.home__main__section__article__div--i i{
+    margin-top: 0px;
+    margin-left: 8px;
+    color: #39b54a;
+}
+
+.home__main__section__article__div p{
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.home__main__section__article__div--off{
+    font-size: 16px;
+    color: #39b54a;
+}
+.home__main__section__article__div--descripcion{
+    display: none;
+}
+
 
 
 /*-----footer------*/
@@ -155,4 +195,80 @@ https://fontawesome.com/icons?d=gallery&m=free*/
     margin-top: 0px;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+
+/*--------------------------------------------------------------------*/
+/*● Navegación en tablets (ancho mínimo 361 px)*/
+@media (min-width:361px){ 
+    /*HEADER*/
+    .home__header__nav{
+        margin-left: 20px;
+    }    
+    .home__header__nav__menu{
+        display: block;
+    }
+    .home__header__nav__usuario {
+        display: block
+    }
+    .burger-menu{
+        display: none;
+    } 
+
+
+    /*MAIN*/
+    .home__main__section{
+        padding: 20px;
+    }
+    .home__main__section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .home__main__section__article__div--descripcion{
+        display: block;
+    }
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+/*● Navegación en desktop (ancho mínimo 769 px)*/
+@media (min-width:769px) {
+        /*HEADER*/
+    .home__header__nav{
+        margin-left: 20px;
+    }    
+    .home__header__nav__menu{
+        display: block;
+    }
+    .home__header__nav__usuario {
+        display: block
+    }
+    .burger-menu{
+        display: none;
+    } 
+    
+    
+    /*MAIN*/
+    .home__section{
+        
+    
+
+    };
+    .home__main__section img{
+        margin-bottom: 500px;
+    }
+    .home__main__section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .home__main__section__article__div--descripcion{
+        display: block;
+    }
+
+
+
+
+
 }
