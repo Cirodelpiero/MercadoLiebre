@@ -31,17 +31,47 @@ https://fontawesome.com/icons?d=gallery&m=free*/
     background-color: #EAC926;
     padding-bottom: 10px;
     padding-top: 10px;
+    width: 100%;
+}    
+.home__header__T{
+    width: 100%;
+    display: flex;
+}    
+.home__header__div{
     
+width: 50%;
 }
 .home__header__div__figure{
-    width: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.home__header__div__figure img{
+    width: 100%;
     height: 60px;
     margin-right: 20px;
     margin-left: 5px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    width: 100%;
 }
 .home__header__div2{
-    margin-left: 30px ;
+    
+width: 50%;
+    
+display: flex;
+    
+margin-top: 6px;
+}
+.home__header__div2 input{
+    height: 40px;
+    /* border-radius: 10px; */
+    width: 75%;
+    border: none;
+    margin-left: 8px;
+}
+.home__header__div2 button{
+    height: 42px;
+    border: none;
 }
 
 .home__header p{
@@ -122,6 +152,11 @@ https://fontawesome.com/icons?d=gallery&m=free*/
     border-top: solid #ebebeb 1px;
 }
 
+.home__main__section--articulos{
+    display:flex;
+    gap: 20px
+}
+
 .home__main__section__article__div {
     font-size: 18px;
     border-top: solid #ebebeb 1px;
@@ -131,16 +166,22 @@ https://fontawesome.com/icons?d=gallery&m=free*/
 
 
 
+
+
 .home__main__section__article__div--i{
     border: solid 1px #39b54a;
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 238px;
 }
 .home__main__section__article__div--i i{
-    margin-top: 0px;
-    margin-left: 8px;
+    margin-top: 20px;
+    margin-left: 12px;
     color: #39b54a;
+
 }
 
 .home__main__section__article__div p{
@@ -225,6 +266,10 @@ https://fontawesome.com/icons?d=gallery&m=free*/
     }
     .home__main__section__article__div--descripcion{
         display: block;
+    }
+    .home__main__section--tablet{
+        display: flex; 
+        gap: 10px; 
     }
 }
 
