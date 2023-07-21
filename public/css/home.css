@@ -14,8 +14,7 @@
     flex-wrap: wrap;
 }    
 .home__header__div{
-    
-width: 50%;
+    width: 50%;
 }
 .home__header__div__figure{
     width: 100%;
@@ -31,12 +30,9 @@ width: 50%;
     width: 100%;
 }
 .home__header__div2{
-    
-width: 50%;
-    
-display: flex;
-    
-margin-top: 6px;
+    width: 96%;
+    display: flex;
+    margin-top: 6px;
 }
 .home__header__div2 input{
     height: 40px;
@@ -55,7 +51,8 @@ margin-top: 6px;
     text-align: center;
 }
 .home__header__nav ul{
-    padding-left: 0px
+    padding-left: 0px;
+    /* gap: 10px; */
 }
 
 .home__header__nav__menu{
@@ -247,7 +244,7 @@ margin-left: 10px;
 
 
     .home__header__div2 input{
-        width: 92px;
+        width: 100%;
     }
     .home__header__nav{
         margin-left: 20px;
@@ -258,12 +255,14 @@ margin-left: 10px;
     }
     .home__header__nav__menu{
         display: flex;
+        gap: 10px;
     }
     
 
 
     .home__header__nav__usuario {
         display: flex;
+        gap: 10px;
     }
     .burger-menu{
         display: none;

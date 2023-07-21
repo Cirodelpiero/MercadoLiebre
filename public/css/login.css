@@ -2,6 +2,10 @@
     background-color: #ebebeb;
 
 }
+.home__header__div2 
+{
+    
+}
 .login__formulario{
     display: flex;
     flex-direction: column;

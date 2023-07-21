@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/dcaef0d3ba.js" crossorigin="anonymous"></script>
 
-    <title>MERCADO LIEBRE</title>
+    <title>REGISTER</title>
 </head>
 
 
@@ -78,23 +78,27 @@
         <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio" required><br><br>
 
         <label for="perfil">Perfil del usuario:</label>
-        <input type="radio" id="comprar" name="perfil" value="comprar" required>
-        <label for="comprar">Comprar</label>
-        <input type="radio" id="vender" name="perfil" value="vender" required>
-        <label for="vender">Vender</label><br><br>
+        <div class="register__perfilUsuario">
+            <input type="radio" id="comprar" name="perfil" value="comprar" required>
+            <label for="comprar">Comprar</label>
+            <input type="radio" id="vender" name="perfil" value="vender" required>
+            <label for="vender">Vender</label><br><br>
+        </div>    
 
-        <label for="categorias">Categorías de interés:</label><br>
-        <input type="checkbox" id="electro" name="categorias" value="electro">
-        <label for="electro">Electro</label><br>
-        <input type="checkbox" id="moda" name="categorias" value="moda">
-        <label for="moda">Moda</label><br>
-        <input type="checkbox" id="hogar" name="categorias" value="hogar">
-        <label for="hogar">Hogar</label><br>
-        <input type="checkbox" id="jugueteria" name="categorias" value="jugueteria">
-        <label for="jugueteria">Juguetería</label><br>
-        <input type="checkbox" id="vida_sana" name="categorias" value="vida_sana">
-        <label for="vida_sana">Vida sana</label><br><br>
-
+        
+            <label for="categorias">Categorías de interés:</label><br>
+        <div class="register__checkbox">    
+            <input type="checkbox" id="electro" name="categorias" value="electro">
+            <label for="electro">Electro</label><br>
+            <input type="checkbox" id="moda" name="categorias" value="moda">
+            <label for="moda">Moda</label><br>
+            <input type="checkbox" id="hogar" name="categorias" value="hogar">
+            <label for="hogar">Hogar</label><br>
+            <input type="checkbox" id="jugueteria" name="categorias" value="jugueteria">
+            <label for="jugueteria">Juguetería</label><br>
+            <input type="checkbox" id="vida_sana" name="categorias" value="vida_sana">
+            <label for="vida_sana">Vida sana</label><br><br>
+        </div>    
         <label for="foto">Foto de usuario:</label>
         <input type="file" id="foto" name="foto" accept="image/*" required><br><br>
 
@@ -104,8 +108,9 @@
         
         <input type="password" id="confirm_password" placeholder="Confirmar contraseña" name="confirm_password" required><br><br>
 
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
+        <button type="submit" >Enviar</button>
+        <button type="submit" >Borrar</button>
+        
     </form>
     </main>
     
