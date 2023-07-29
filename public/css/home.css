@@ -144,7 +144,7 @@ padding-bottom: -53px;
     font-size: 18px;
     border-top: solid #ebebeb 1px;
     padding: 15px;
-    
+    position: relative;
 }
 
 
@@ -153,26 +153,34 @@ padding-bottom: -53px;
 
 .home__main__section__article__div--i{
 
-position: relative;
+border: solid 1px #39b54a;
 
+display: flex;
+
+font-size: 16px;
+
+border-radius: 50%;
+
+width: 30px;
+
+height: 30px;
+
+position: absolute;
+
+top: -20px;
+
+right: 24px;
 }
 .home__main__section__article__div--i i{
-
-    border: solid 1px #39b54a;
-    display: block;
-    font-size: 16px;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
     color: #39b54a;
-    position: absolute;
-    top: -35px;
-    right: -6px;
+    position: relative;
+    top: 14px;
+    right: -8px;
 }
 
 
 
-.home__main__section__article__div--i i:hover {
+.home__main__section__article__div--i:hover {
     animation: rotate 2s ease;
 }
 @keyframes rotate{
@@ -327,31 +335,42 @@ margin-left: 10px;
 
 
     }
+    .home__main__section__article__div {
+        font-size: 18px;
+        border-top: solid #ebebeb 1px;
+        padding: 15px;
+        position: relative;
+    }
+    
+    
+    
+    
+    
     .home__main__section__article__div--i{
-        
-right: 0px;
-        
-top: 158px;
-        
-position: relative;
+    
+border: solid 1px #39b54a;
+    
+display: flex;
+    
+font-size: 16px;
+    
+border-radius: 50%;
+    
+width: 30px;
+    
+height: 30px;
+    
+position: absolute;
+    
+top: -16px;
+    
+right: 3px;
     }
     .home__main__section__article__div--i i{
-        
-position: absolute;
-        
-right: -12px;
-        
-top: -188px;
-        
-height: 30px;
-        
-width: 30px;
-        
-font-size: 12px;
-        
-/* display: flex; */
-        
-/* justify-content: center; */
+        color: #39b54a;
+        position: relative;
+        top: 14px;
+        right: -8px;
     }
 
     
@@ -421,11 +440,42 @@ font-size: 12px;
     }
     
     
+    .home__main__section__article__div {
+        font-size: 18px;
+        border-top: solid #ebebeb 1px;
+        padding: 15px;
+        position: relative;
+    }
+    
+    
+    
+    
+    
     .home__main__section__article__div--i{
-        
+    
+border: solid 1px #39b54a;
+    
+display: flex;
+    
+font-size: 16px;
+    
+border-radius: 50%;
+    
+width: 30px;
+    
+height: 30px;
+    
+position: absolute;
+    
+top: -20px;
+    
 right: 2px;
-        
-top: 160px;
+    }
+    .home__main__section__article__div--i i{
+        color: #39b54a;
+        position: relative;
+        top: 14px;
+        right: -8px;
     }
     .home__main__section__article__div--descripcion{
         display: block;
