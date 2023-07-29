@@ -152,12 +152,12 @@ padding-bottom: -53px;
 
 
 .home__main__section__article__div--i{
-   
+
 position: relative;
 
 }
 .home__main__section__article__div--i i{
-  
+
     border: solid 1px #39b54a;
     display: block;
     font-size: 16px;
@@ -172,7 +172,7 @@ position: relative;
 
 
 
-.home__main__section__article__div--i:hover i{
+.home__main__section__article__div--i i:hover {
     animation: rotate 2s ease;
 }
 @keyframes rotate{
